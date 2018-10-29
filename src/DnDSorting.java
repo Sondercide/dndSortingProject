@@ -46,19 +46,19 @@ public class DnDSorting {
 						c.setTempCompare(c.Str);
 				else if(sortBy.equals("dexterity") || sortBy.equals("dex"))
 					for(Character c  : CharacterList)
-						c.setTempCompare(c.Str);
+						c.setTempCompare(c.Dex);
 				else if(sortBy.equals("constitution") || sortBy.equals("con"))
 					for(Character c  : CharacterList)
-						c.setTempCompare(c.Str);
+						c.setTempCompare(c.Con);
 				else if(sortBy.equals("intelligence") || sortBy.equals("int"))
 					for(Character c  : CharacterList)
-						c.setTempCompare(c.Str);
+						c.setTempCompare(c.Int);
 				else if(sortBy.equals("wisdom") || sortBy.equals("wis"))
 					for(Character c  : CharacterList)
-						c.setTempCompare(c.Str);
+						c.setTempCompare(c.Wis);
 				else if(sortBy.equals("charisma") || sortBy.equals("cha"))
 					for(Character c  : CharacterList)
-						c.setTempCompare(c.Str);
+						c.setTempCompare(c.Cha);
 				else {
 					System.out.println("That is not a applicable stat. Try again");
 					correct = true;
